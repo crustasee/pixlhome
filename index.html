@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage — PixlHome</title>
+  <link rel="shortcut icon" href="resources/google.png" type="image/png">
+  <link rel="stylesheet" href="src/css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Status Bar Mount -->
+    <header class="status-bar" id="statusBarMount" aria-label="Status bar"></header>
+
+    <!-- Search Box Mount -->
+    <div class="search-container" id="searchMount"></div>
+
+    <!-- Active Page View (Routed Component Mount) -->
+    <main id="pageView" aria-live="polite"></main>
+
+    <!-- Help Bar Mount -->
+    <footer id="helpMount"></footer>
+  </div>
+
+  <!-- Data Layer -->
+  <script src="src/data/shortcuts.js"></script>
+
+  <!-- Components -->
+  <script src="src/components/IconCard.js"></script>
+  <script src="src/components/StatusBar.js"></script>
+  <script src="src/components/SearchBox.js"></script>
+  <script src="src/components/FavoritesBar.js"></script>
+  <script src="src/components/HelpBar.js"></script>
+
+  <!-- Pages -->
+  <script src="src/pages/HomePage.js"></script>
+  <script src="src/pages/ExtraPage.js"></script>
+
+  <!-- Router & Application Core -->
+  <script src="src/router.js"></script>
+  <script src="src/app.js"></script>
+</body>
+
+</html>
