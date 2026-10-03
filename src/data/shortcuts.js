@@ -30,7 +30,8 @@ window.PixlApp.data = {
       { name: 'Shutterstock', url: 'https://submit.shutterstock.com', icon: 'resources/Shutterstock.png' },
       { name: 'Cloudinary', url: 'https://console.cloudinary.com/app/c-66985e890f332386f893c301031e35/home/dashboard', icon: 'https://cdn.jsdelivr.net/gh/selfhst/icons/svg/cloudinary-light.svg' },
       { name: 'mediafire', url: 'https://www.mediafire.com/myfiles', icon: 'https://res.cloudinary.com/lbovk2lu/image/upload/v1788288078/icloud-logo-49266.png' },
-      { name: 'grok AI', url: 'https://grok.x.com', icon: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/grok-dark.svg' }
+      { name: 'grok AI', url: 'https://grok.x.com', icon: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/grok-dark.svg' },
+      { name: 'neon', url: 'https://neon.com', icon: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/neon-tech.svg' }
     ],
     favorites: [
       { name: 'Behance', url: 'https://behance.com', icon: 'https://res.cloudinary.com/lbovk2lu/image/upload/v1788287178/behance_2.png' },
@@ -56,7 +57,8 @@ window.PixlApp.data = {
       { name: 'FlutterGems', url: 'https://fluttergems.dev', icon: 'https://files.svgcdn.io/logos/flutter.svg' },
       { name: 'FlutterTemplates', url: 'https://fluttertemplates.dev', icon: 'https://files.svgcdn.io/skill-icons/flutter-light.svg' },
       { name: 'discord', url: 'https://discord.com', icon: 'https://res.cloudinary.com/lbovk2lu/image/upload/v1788287605/Discord_3.png' },
-      { name: 'linkedin', url: 'https://www.linkedin.com/in/wahyu-adhitama-5084b7221/', icon: 'https://files.svgcdn.io/logos/linkedin-icon.svg' }
+      { name: 'linkedin', url: 'https://www.linkedin.com/in/wahyu-adhitama-5084b7221/', icon: 'https://files.svgcdn.io/logos/linkedin-icon.svg' },
+      { name: 'midtrans', url: 'https://midtrans.com', icon: 'https://res.cloudinary.com/lbovk2lu/image/upload/v1791151763/logo.png' },
     ]
   }
 };
